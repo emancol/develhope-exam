@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 36, 36);
+    min-height: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+p{
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+
+
+.wrapper{
+height: 100%;
+display: flex;
+
+}
+
+aside{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+     width: 200px;
+    background-color: rgb(103, 98, 98);
+    align-self: stretch;
+
+    
+}
+
+.navigation-link{
+    list-style: none;
+}
+
+
+.profile-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.navigation-link{
+  
+    margin-top: 2rem;
+}
+.navigation-item{
+    margin-top: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+main{
+    display: flex;
+   padding-top: 1rem;
+   padding-left: 4rem;
+   padding-right: 4rem;
+   justify-content: space-evenly;
+   flex: 1;
+ 
+    
+}
+
+
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    
+}
+
